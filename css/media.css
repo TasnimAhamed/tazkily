@@ -1,0 +1,111 @@
+/* Extra Small Device */
+@media  (min-width:320px) and (max-width:575px) {
+
+
+    h1{
+        font-size: 34px;
+        line-height:41px;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .header__area{
+        padding-top:25px;
+        background:url(../images/banner__bg-sm.png);
+        background-repeat: no-repeat;
+    }
+    /* Main Menu Start */
+
+    .menu__wrapper{
+        padding: 8px 0;
+    }
+    .menu__btn{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .login__btn{
+        padding: 0.5rem 0;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    /* Main Menu End */
+
+    /* Banner Area Start */
+    .banner__area{
+        padding: 40px 0;
+    }
+    .banner__row {
+        min-height: 650px;
+    }
+    .banner__description{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .banner__btn{
+        padding-top: 40px;
+    }
+    .banner__img{
+        min-height: 350px;
+    }
+    .banner__img img{
+        top: unset;
+        bottom:100px;
+        width:325px;
+    }
+    /* Banner Area End */
+
+    /* Connect With Apps Area Start */
+    .browse__btn{
+        margin-top: 32px;
+    }
+    .connect__with-apps-img,
+    .real__time-chat-img{
+        margin-top: 50px;
+    }
+    /* Connect With Apps Area End */
+
+}
+
+
+
+
+@media (min-width:1440px) and (max-width:1599px) {
+
+}
+
+
+
+@media (min-width:1600px) and (max-width:1799px) {
+    /* Banner Area */
+    .banner__area{
+        padding:120px 0;
+    }
+    .banner__img img{
+        top: 120px;
+    }
+    .header__area{
+        background-position: center bottom;
+    }
+}
+
+
+@media (min-width:1800px) {
+    /* Banner Area */
+    .banner__area{
+        padding:150px 0;
+    }
+    .banner__img img{
+        top: 150px;
+    }
+    .header__area{
+        background-position: center bottom;
+    }
+}
