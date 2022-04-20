@@ -10,16 +10,20 @@
         font-size: 28px;
         line-height: 34px;
     }
-
+    h4{
+        font-size:18px;
+        line-height:24px;
+    }
     p{
         font-size: 16px;
         line-height: 28px;
     }
-
     .header__area{
         padding-top:25px;
         background:url(../images/banner__bg-sm.png);
         background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
     /* Main Menu Start */
 
@@ -60,6 +64,9 @@
         bottom:100px;
         width:325px;
     }
+    .dot__img{
+        display: none;
+    }
     /* Banner Area End */
 
     /* Connect With Apps Area Start */
@@ -72,6 +79,143 @@
     }
     /* Connect With Apps Area End */
 
+    /* Real Time chat Area Start */
+    .half__cirlc-image{
+        width:26%;
+        top:-20%;
+    }
+    
+    /* Real Time chat Area Start */
+
+    /*Package Area Started*/
+    .pricing__area {
+        background: url(../images/package-banner.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .pricing__content h2{
+        padding: 0;
+    }
+    .pricing__content p{
+        padding:10px 36px 0 36px;
+    }
+    .basic__plan{
+        margin:32px 0;
+    }
+    .free-advance__plan{
+        background-size: 100% 32%;
+    }
+    /*Package Area End*/
+
+    /* Article Area Start */
+    .article__area{
+        min-height:1250px;
+    }
+    .all__articles{
+        display: none;
+    }
+    .article__card{
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .card__left{
+        width: 42%;
+    }
+    .card__right h4{
+        line-height:24px;
+    }
+    .card__right {
+        width: 56%;
+        padding-left: 8%;
+    }
+    .card__right p{
+        font-size:13px;
+        line-height:19px;
+    }
+    .post__time{
+        padding-top: 8px;
+    }
+    .single__article{
+        padding-right: 0;
+    }
+    /* Article Area End */
+
+    /* Productivity Area Start */
+    .productivity__area{
+        min-height: 450px;
+    }
+    .productivity-img{
+        top: 75px;
+        width:100%;
+        left: 0;
+    }
+    /* Productivity Area End */
+
+    /* Testimonial Area Start */
+    .testimonial__area {
+        padding-top: 180px;
+        background: url(../images/testimonial-bg-sm.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    .testimonial__card-column{
+        position:static;
+        right: unset;
+    }
+    .testimonial__items{
+        display: none;
+    }
+    .testimonial__card{
+        margin-bottom: 24px;
+    }
+    /* Testimonial Area End */
+
+    /* Footer Area Start */
+    .footer__area{
+        padding-top:72px;
+        padding-bottom: 24px;
+    }
+    .footer__description {
+        max-width: 275px;
+    }
+    .made__with{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .useful__links ul li a, .our__product ul li a, .about__us ul li a{
+        font-size:16px;
+        line-height: 26px;
+    }
+    .copyright__text{
+        font-size:18px;
+        margin-top: 16px;
+        margin-bottom: 0;
+    }
+    .about__us ul li:last-child{
+        margin-top: 32px;
+    }
+    .our__product{
+        margin-top: -43px;
+    }
+    /* Footer Area End */
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    
+}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
 }
 
 

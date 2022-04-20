@@ -86,9 +86,10 @@
                             </div>
                         </div>
                         <div class="col-md-5">
+                            <!-- 12 dot Image-->
+                            <img src="./images/dot12.svg" alt="tazkily" class="dot__img">
                             <div class="banner__img">
                                 <img src="./images/banner__left-bg.png" alt="tazkily" class="img-fluid d-md-block d-none">
-                                <img src="./images/banner__left-image-sm.png" alt="tazkily" class="img-fluid d-md-none">
                                 <img src="./images/banner__left-image-sm.png" alt="tazkily" class="img-fluid d-md-none">
                             </div>
                         </div>
@@ -124,7 +125,7 @@
 
     <!--  Connect With Apps Area End-->
 
-    <!--  Real Time chat Area Start-->
+    <!--  Real Time chat Area Start -->
 
     <section class="real__time-chat">
         <img src="./images/half__circle.png" alt="tazkily" class="img-fluid half__cirlc-image">
@@ -158,7 +159,7 @@
                         <div class="package__switcher">
                             <span class="monthly"> Monthly</span>
                             <label class="switch">
-                                <input id="checkbox" type="checkbox" onclick="changePrice()">
+                                <input id="price-switcher" type="checkbox">
                                 <span class="slider round"></span>
                             </label>
                             <span class="yearly">Yearly</span>
@@ -174,7 +175,7 @@
                             <h4>Free Plan</h4>
                             <div class="price">
                                 <h2>$0</h2>
-                                <p>/Life time</p>
+                                <p>/ Life time</p>
                             </div>
                         </div>
                         <div class="pricing__body">
@@ -215,8 +216,8 @@
                         <div class="pricing__header">
                             <h4>Basic plan</h4>
                             <div class="price">
-                                <h2>$10</h2>
-                                <p>/ Per month</p>
+                                <h2 id="basic-price">$10</h2>
+                                <p class="price-time1">/ Per month</p>
                             </div>
                         </div>
                         <div class="pricing__body">
@@ -250,6 +251,9 @@
                         <div class="pricing__footer">
                             <button class="btn free__plan">Get Started</button>
                         </div>
+                        <div class="recommended__tooltip">
+                            Recommended
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -257,8 +261,8 @@
                         <div class="pricing__header">
                             <h4>Advance plan</h4>
                             <div class="price">
-                                <h2>$50</h2>
-                                <p>/ Per month</p>
+                                <h2 id="advance-price">$50</h2>
+                                <p class="price-time2">/ Per month</p>
                             </div>
                         </div>
                         <div class="pricing__body">
@@ -311,12 +315,14 @@
                         We regularly share resources on startups, productivity, and the future of work
                     </p>
                 </div>
-                <div class="col-md-3 text-end">
+                <div class="col-md-3 text-md-end">
                     <button class="btn article__btn">See more articles</button>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 all__articles-column">
+
+                    <!-- Carousel For Desktop View -->
                     <div class="all__articles">
                         <div class="single__article">
                             <div class="article__card d-flex align-items-center">
@@ -394,6 +400,136 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Carousel For Desktop View -->
+
+                    <!-- Carousel For Mobile View -->
+                    <div class="all__articles-sm d-md-none">
+                        <div class="single__article">
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single__article">
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single__article">
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                            <div class="article__card d-flex align-items-center">
+                                <div class="card__left">
+                                    <img src="./images/article_1.svg" alt="tazkily" class="img-fluid">
+                                    <div class="post__time">
+                                        <p>Post on</p>
+                                        <span>October 26, 2021</span>
+                                    </div>
+                                </div>
+                                <div class="card__right">
+                                    <h4>What’s growth hacking? 8 great books to learn more about it</h4>
+                                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel For Mobile View -->
+
                 </div>
             </div>
         </div>
@@ -429,8 +565,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 testimonial__card-column">
-                    <div class="multiple__items">
-                        <div class="item">
+                    <!-- Testimonial for Desktop View -->
+
+                    <div class="testimonial__items">
+                        <div class="single__testimonial">
                             <div class="testimonial__card">
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
                                 <div class="d-flex client__name align-items-center">
@@ -439,7 +577,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="single__testimonial">
                             <div class="testimonial__card">
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
                                 <div class="d-flex client__name align-items-center">
@@ -448,7 +586,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="single__testimonial">
                             <div class="testimonial__card">
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
                                 <div class="d-flex client__name align-items-center">
@@ -458,6 +596,63 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Testimonial for Desktop View -->
+
+                    <!-- Testimonial for Mobile View -->
+                    
+                    <div class="testimonial__items-sm d-md-none">
+                        <div class="single__testimonial">
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single__testimonial">
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single__testimonial">
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                            <div class="testimonial__card">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                <div class="d-flex client__name align-items-center">
+                                    <img src="./images/client1.svg" alt="tazkily" class="img-fluid">
+                                    <h5>Vincen Mcmahoon</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial for Mobile View -->
                 </div>
             </div>
         </div>
@@ -498,7 +693,7 @@
                         <p class="made__with">Made with ❤️ by Tazkily Team</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6 order-2">
                     <div class="useful__links">
                         <h3>Useful Links</h3>
                         <ul class="list-unstyled">
@@ -517,7 +712,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 order-4 col-6">
                     <div class="our__product">
                         <h3>Our Product</h3>
                         <ul class="list-unstyled">
@@ -537,7 +732,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-6 order-3">
                     <div class="about__us">
                         <h3>About Us</h3>
                         <ul class="list-unstyled">
