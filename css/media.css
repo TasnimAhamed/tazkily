@@ -89,7 +89,7 @@
 
     /*Package Area Started*/
     .pricing__area {
-        background: url(../images/package-banner.svg);
+        background: url(../images/package-banner.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -175,7 +175,7 @@
     /* Testimonial Area Start */
     .testimonial__area {
         padding-top: 180px;
-        background: url(../images/testimonial-bg-sm.svg);
+        background: url(../images/testimonial-bg-sm.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
@@ -366,6 +366,15 @@
         left: 54%;
     }
     /* Banner Area End */
+
+    /* Pricing Area */
+    .pricing__area{
+        padding-bottom: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    /* Pricing Area */
 
     /* Article Area Start */
     .single__article{

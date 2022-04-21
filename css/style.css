@@ -429,7 +429,7 @@ input:checked + .slider:before {
 /* Article Area Start */
 .article__area{
     padding: 120px 0;
-    background: url(../images/ellipse.svg);
+    background: url(../images/ellipse.png);
     background-repeat: no-repeat;
     background-size:contain;
     background-position: left center;
@@ -472,11 +472,14 @@ input:checked + .slider:before {
 }
 .card__right{
     width: 50%;
-    padding-left: 6%;
+    padding-left: 5%;
 }
 .card__right h4{
-line-height: 36px ;
+    line-height: 36px ;
     color: var(--black);
+}
+.card__right p{
+    margin-bottom: 0;
 }
 /* Article Area End */
 
