@@ -10,21 +10,19 @@ $(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 2000,
-        arrows:false
+        autoplaySpeed: 2000
     });
     $('.testimonial__items').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
     });
     $('.testimonial__items-sm').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
-        arrows:false
+        autoplaySpeed: 2000
     });
     
 

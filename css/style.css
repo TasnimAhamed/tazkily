@@ -238,7 +238,7 @@ p{
 /* Pricing Area Start */
 
 .pricing__area{
-    padding:120px 0;
+    padding:200px 0;
     background: url('../images/package__banner.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -431,7 +431,7 @@ input:checked + .slider:before {
     padding: 120px 0;
     background: url(../images/ellipse.svg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position: left center;
     min-height: 850px;
 }
