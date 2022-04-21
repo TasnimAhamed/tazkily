@@ -116,8 +116,26 @@ p{
     background:linear-gradient(to bottom, #8928ffce,#C08DFF);
     border-radius: 10px;
 }
+/* Fade In Down Animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
 
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
 
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 800ms;
+}
 
 
 /** Header Section Start **/
@@ -131,6 +149,11 @@ p{
 }
 
 /* main menu */
+
+.main__menu.fixed-top{
+    background: #ffffffe6;
+    padding: 10px 0;
+}
 
 .menu__wrapper .navbar-nav .nav-item:not(:last-child){
     margin-right: 47px;
@@ -587,7 +610,7 @@ input:checked + .slider:before {
 
 /* Footer Area Start*/
 .footer__area{
-    padding: 120px 0 100px 0;
+    padding: 120px 0 50px 0;
     background: var(--deep-black);
 }
 .footer__description{

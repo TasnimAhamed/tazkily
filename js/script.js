@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+
+    $(window).scroll(function(){
+        var navFixed = $(window).scrollTop();
+        if(navFixed > 100){
+            $(".main__menu").addClass("fixed-top fadeInDown");
+        }else{
+            $(".main__menu").removeClass("fixed-top fadeInDown");
+        }
+    });
+
+
+    //Article Carousel Initializer
     $('.all__articles').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -12,6 +24,9 @@ $(document).ready(function() {
         autoplay: false,
         autoplaySpeed: 2000
     });
+
+    //Test Carousel Initializer
+
     $('.testimonial__items').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -28,6 +43,8 @@ $(document).ready(function() {
 
 })
 
+
+// Price Switcher
 
 const priceSwitcher=document.getElementById('price-switcher')
 const basicPrice=document.getElementById('basic-price')
