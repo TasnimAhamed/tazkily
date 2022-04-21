@@ -472,7 +472,7 @@ input:checked + .slider:before {
 }
 .card__right{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 6%;
 }
 .card__right h4{
 line-height: 36px ;
