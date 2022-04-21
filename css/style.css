@@ -43,6 +43,10 @@ body{
     padding:16px 32px;
     transition: all 0.4s ease-in-out;
 }
+.btn:focus{
+    outline:0;
+    box-shadow: none;
+}
 
 
 h1{
@@ -96,6 +100,26 @@ p{
     line-height: 29px;
     color: var(--grey);
 }
+
+/*Scroll Bar*/
+
+  /* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(to bottom, #8928ffce,#C08DFF);
+    border-radius: 10px;
+}
+
+
+
+
 /** Header Section Start **/
 
 .header__area{
@@ -432,7 +456,7 @@ input:checked + .slider:before {
     background: url(../images/ellipse.png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position: left center;
+    background-position: 20% 50%;
     min-height: 850px;
 }
 
@@ -485,10 +509,10 @@ input:checked + .slider:before {
 
 
 /* Productivity Section Start */
-.productivity__area{
-    padding-top: 120px;
-    padding-bottom:150px;
-    min-height:650px;
+.productivity__area {
+    padding-top: 45px;
+    padding-bottom: 150px;
+    min-height: 580px;
 }
 .productivity__area h2{
     padding: 0 32px;

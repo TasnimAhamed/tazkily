@@ -18,6 +18,7 @@
         font-size: 16px;
         line-height: 28px;
     }
+
     .header__area{
         padding-top:25px;
         background:url(../images/banner__bg-sm.png);
@@ -453,4 +454,58 @@
     .header__area{
         background-position: center bottom;
     }
+    .pricing__area{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+    .all__articles .slick-prev,
+    .all__articles  .slick-next{
+        right: 400px;
+        bottom: -60px;
+        top: unset;
+    }
+    .all__articles  .slick-prev,
+    .all__articles .slick-prev{
+        left: unset;
+        right:450px;
+    }
+
+    .all__articles  .slick-prev:before,.all__articles  .slick-next:before{
+        color: #C08DFF;
+        transition: all 0.4s ease-in-out;
+    }
+    .all__articles  .slick-prev:hover:before,.all__articles  .slick-next:hover:before{
+        color: #8828FF;
+    }
+
+    .testimonial__card-column{
+        right: -125px;
+        width: 60%;
+    }
+    .testimonial__card p{
+        max-width:335px;
+    }
+    .testimonial__items .slick-prev,
+    .testimonial__items  .slick-next{
+        right: 175px;
+        bottom: -60px;
+        top: unset;
+    }
+    .testimonial__items  .slick-prev{
+        left: unset;
+        right:225px;
+    }
+
+    .testimonial__items  .slick-prev:before,.testimonial__items  .slick-next:before{
+        color: #fff;
+        transition: all 0.4s ease-in-out;
+    }
+    .testimonial__items  .slick-prev:hover:before,.testimonial__items  .slick-next:hover:before{
+        color: #8828FF;
+    }
+    .single__testimonial{
+        margin: 0 24px;
+    }
+
 }
